@@ -1,12 +1,15 @@
-name = input("user name")
-print("welcome to the python world", name)
+base = 5
+pow = 3
+print(base ** pow)
 
 
-num1 = int(input("first number"))
-num2 = int(input("second number"))
-print(num1 * num2)
+age = int(input("what is your age: "))
+can_vote = (age >= 18) 
+print(can_vote)
 
 
-score = 95
-score_str = str(score)
-print(type(score_str))
+has_passed_exam = True 
+has_good_attendance = False
+print (has_passed_exam and has_good_attendance)
+
+
