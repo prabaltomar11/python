@@ -1,14 +1,12 @@
-my_name = "prabal"
-bca_year = 2 
-
-print("My name is", my_name, "and I am in", bca_year, "year of BCA.")
+name = input("user name")
+print("welcome to the python world", name)
 
 
-a = 15 
-b = 4 
-rem = a % b
-print(rem)
+num1 = int(input("first number"))
+num2 = int(input("second number"))
+print(num1 * num2)
 
 
-price = 99.99
-print(type(price))
+score = 95
+score_str = str(score)
+print(type(score_str))
