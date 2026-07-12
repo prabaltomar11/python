@@ -1,15 +1,49 @@
-base = 5
-pow = 3
-print(base ** pow)
+color = input("enter color: ")
+if color == "red":
+   print("Stop!")
+elif color == "yello":
+   print("Wait!")
+elif color == "green":
+   print("Go!")
+else :
+   print("Invalid Color.")
 
 
-age = int(input("what is your age: "))
-can_vote = (age >= 18) 
-print(can_vote)
+
+num1 = int(input("enter number: "))
+if num1 % 2 == 0:
+   print("Even")
+
+else :
+   print("Odd")
 
 
-has_passed_exam = True 
-has_good_attendance = False
-print (has_passed_exam and has_good_attendance)
+
+
+num2 = int(input("enter number: "))
+if num2 > 0:
+   print("Positive")
+
+elif num2 < 0:
+   print("Negative")
+
+else :
+   print("Zero")      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
 
 
