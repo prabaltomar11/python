@@ -1,14 +1,5 @@
-my_laptop = {
-    "brand": "dell",
-    "ram": "8gb",
-    "ssd": "true"
-}
+fav_numbers = {5, 10, 5, 20, 10, 30}
+print(fav_numbers)
 
-print(my_laptop["ram"])
-
-
-
-my_laptop["ram"] = "16gb"
-my_laptop["os"] = "windows"
-
-print(my_laptop)
+fav_numbers.add(50)
+print(fav_numbers)
