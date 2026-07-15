@@ -1,6 +1,14 @@
-coordinates = (28.61, 77.20)
-print(coordinates[1])
+my_laptop = {
+    "brand": "dell",
+    "ram": "8gb",
+    "ssd": "true"
+}
 
-print(coordinates)
+print(my_laptop["ram"])
 
 
+
+my_laptop["ram"] = "16gb"
+my_laptop["os"] = "windows"
+
+print(my_laptop)
