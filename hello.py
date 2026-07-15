@@ -1,14 +1,16 @@
-name = input("enter name:")
-print(len(name))
-print(name[:: -1])
+my_project = ["weather", "fintrack", "portfolio"]
+print(my_project[1])
 
 
+my_project.append("python-prep")
+my_project.remove("weather")
 
 
+print(my_project)
 
-email = "PRABAL@GMAIL.COM"
-print(email.lower())
 
+for project in my_project:
+    print(project)
 
 
 
