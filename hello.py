@@ -1,6 +1,11 @@
-try:
-    with open("goste.txt", "r") as file:
-        content = file.read()
-        print(content)
-except FileNotFoundError:
-    print("Error: File does not exist! But the code is safe.")
+class student:
+    def __init__(self, name, course):
+        self.name = name
+        self.course = course
+
+    def introduction(self):
+
+        print(f"Hi, I am : {self.name}, and I am studying: {self.course}")
+s1 = student("Prabal", "BCA")
+
+s1.introduction()
