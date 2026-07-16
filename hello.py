@@ -1,5 +1,8 @@
-fav_numbers = {5, 10, 5, 20, 10, 30}
-print(fav_numbers)
+with open("Diary.txt", "w") as file:
+    file.write("Today I started Phase 4 of Python.\n")
 
-fav_numbers.add(50)
-print(fav_numbers)
+
+
+with open("Diary.txt", "r") as file:
+    content = file.read()
+    print(content)
