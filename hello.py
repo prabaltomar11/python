@@ -1,8 +1,6 @@
-with open("Diary.txt", "w") as file:
-    file.write("Today I started Phase 4 of Python.\n")
-
-
-
-with open("Diary.txt", "r") as file:
-    content = file.read()
-    print(content)
+try:
+    with open("goste.txt", "r") as file:
+        content = file.read()
+        print(content)
+except FileNotFoundError:
+    print("Error: File does not exist! But the code is safe.")
